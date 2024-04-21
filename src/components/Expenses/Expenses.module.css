@@ -1,0 +1,77 @@
+.button {
+  font-size: 1.2rem;
+  padding: 15px 10px;
+  color: rgb(244, 131, 86);
+  background-color: antiquewhite;
+  border-radius: 15px;
+  border: none;
+}
+.expenses__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  padding: 40px 0px;
+}
+.input__container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+input {
+  outline: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.list__items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  list-style: none;
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px 25px;
+}
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  height: 40px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: 3px solid wheat;
+  border-radius: 20px;
+  text-align: end;
+  padding: 15px 25px;
+  background-color: rgb(249, 249, 249);
+}
+.delete {
+  width: 33px;
+  height: 33px;
+  background-color: rgb(239, 10, 10);
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.count {
+  width: 100px;
+  height: 50px;
+  border: none;
+  background-color: antiquewhite;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
